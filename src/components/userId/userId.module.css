@@ -1,4 +1,9 @@
-.userIdContainer {
-    width: 100%;
+
+.cardContent {
+    width: 70%;
     background-color: #fff;
+    margin: 1% auto;
+}
+img {
+    background-color: brown;
 }
