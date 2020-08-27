@@ -1,29 +1,38 @@
 .homeContainer {
     background-color: #fff;
     border: 1px solid #f2f2f2;
-    width: 70%;
+    width: 60%;
     margin: auto;
 }
 .homeRow {
     /* background-color: blueviolet; */
-    padding: 1%;
 }
 .homeCol {
+    /* min-height: 100%; */
     background-color: #fff;
     border: 1px solid #d9d9d9;
-    /* margin: 5px; */
-    padding: 15px;
+    margin-bottom: 12px;
+    padding: 20px;
+    text-align: center;
+    overflow: hidden;
     /* background-color: aqua; */
 }
 h4 {
     font-weight: 600;
+    font-size: 1.2em;
+}
+h6 {
+    padding: 1%;
+    font-weight: 400;
 }
 button {
     border: 1px solid #0073b1;
     color: #0073b1;
     font-weight: 600;
+    font-size: 1.2em;
     background-color: #fff;
-    width: 75%;
+    width: 90%;
+    padding: 2.5%;
 }
 img {
     width: 100px;
@@ -34,12 +43,41 @@ img {
     font-size: 0.9em;
     cursor: pointer;
     font-weight: 400;
+    margin-top: 30%;
 }
 .homeClose {
     border: solid #8c8c8c 1px;    
     border-radius: 50%;
-    height: 30px;
-    width: 30px;
+    height: 25px;
+    width: 25px;
     color: #fff;
     background-color: #595959;
+    text-align: center;
+    cursor: pointer;
+}
+/* .email {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    background-color: brown;
+} */
+.name {
+    
+}
+@media screen and (max-width: 769px) {
+    img {
+        width: 65px;
+        height: 65px;
+        border-radius: 50%;
+    }
+    button {
+        width: 100%;
+        font-size: 1em;
+    }
+    h4 {
+        font-size: 1em;
+
+    }
+    .homeContainer {
+        width: 80%;
+    }
 }
