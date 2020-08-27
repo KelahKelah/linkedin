@@ -13,8 +13,6 @@ function App() {
           <Route exact path='/user/:id' component={UserId} />
         </Switch>
       </BrowserRouter>
-      {/* <Home /> */}
-       {/* <UserId />  */}
     </div>
   );
 }

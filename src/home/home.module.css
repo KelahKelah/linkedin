@@ -52,16 +52,19 @@ img {
     width: 25px;
     color: #fff;
     background-color: #595959;
+    opacity: 20px;
     text-align: center;
     cursor: pointer;
 }
-/* .email {
+.email {
     overflow: hidden;
     text-overflow: ellipsis;
-    background-color: brown;
-} */
+    white-space: nowrap;
+}
 .name {
-    
+    text-overflow: ellipsis; 
+    white-space: nowrap;
+    overflow: hidden;
 }
 @media screen and (max-width: 769px) {
     img {

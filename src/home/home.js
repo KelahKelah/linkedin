@@ -56,9 +56,9 @@ const Home = (props) => {
                   {/* </button> */}
                   <img src={user.picture} alt="" />
                   <h4
-                    className={styles.name}
+                    className={styles.name}  alt={`${user.firstName} ${user.lastName}`}
                   >{`${user.firstName} ${user.lastName}`}</h4>
-                  <p className={styles.email}>{user.email}</p>
+                  <p className={`${styles.email}`}>{user.email}</p>
                   <p className={styles.subItem}>
                     <BsLink />
                     60 mutual connections

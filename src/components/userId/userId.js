@@ -4,7 +4,6 @@ import Img from "../../assets/profile.jpeg";
 import Axios from "axios";
 import { useParams } from "react-router-dom";
 import {
-  BsGeoAlt,
   BsEnvelopeFill,
   BsFillPersonFill,
   BsCalendarFill,
