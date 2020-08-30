@@ -3,16 +3,16 @@
     width: 40%;
     background-color: #fff;
     margin: 4% auto;
-    justify-self: center;
+    /* justify-self: center; */
 }
 .cardContents {
     width: 40%;
     background-color: #fff;
     margin: 1% auto;
-    justify-self: center;
+    /* justify-self: center; */
 }
 .userIdImg {
-    /* background-color: brown; */
+    background-color: brown;
     height: 150px;
     object-fit: cover;
     object-position: center;
@@ -29,11 +29,6 @@ h5 {
     color: #0073b1;
     cursor: pointer;
 }
-/* .userButton {
-    color: #fff;
-    font-weight: 900;
-    width: 39%;
-} */
 .check {
     display: flex;
     justify-content: center;
@@ -47,9 +42,7 @@ h5 {
     width: 45%;
     padding: 2.3%;
 }
-p {
-    /* display: flex; */
-}
+
 @media  screen and  (max-width:321px) {
 .cardContent {
     width: 60%;

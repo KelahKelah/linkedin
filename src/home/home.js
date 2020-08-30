@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import styles from "./home.module.css";
-import Img from "../assets/profile.jpeg";
 import { BsLink } from "react-icons/bs";
 import Axios from "axios";
 import UserId from "../components/userId/userId";
@@ -46,14 +45,12 @@ const Home = (props) => {
             return (
               <div className={"col-md-3"}>
                 <div className={styles.homeCol}>
-                  {/* <button type="button"  aria-label="Close"> */}
                   <span
                     aria-hidden="true"
                     className={`close ${styles.homeClose}`}
                   >
                     &times;
                   </span>
-                  {/* </button> */}
                   <img src={user.picture} alt="" />
                   <h4
                     className={styles.name}  alt={`${user.firstName} ${user.lastName}`}
