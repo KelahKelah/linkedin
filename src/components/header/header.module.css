@@ -1,0 +1,44 @@
+.headerContainer {
+    width: 100%;
+    background-color: #283e4a;
+    color: #fff;
+
+}
+.headerContent {
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    /* background-color: brown; */
+    /* padding: 0.8%; */
+}
+.brand {
+    display: flex;
+}
+ul {
+    display: flex;
+}
+li {
+    list-style: none;
+    padding: 0.9%;
+}
+.logo {
+    font-size: 2.8em;
+    background-color: #0073b1;
+    align-self: center;
+    /* background-color: chartreuse; */
+}
+.headerIcon {
+    font-size: 2em;
+}
+.search {
+    /* border: black 2px solid; */
+    background-color: #e1e9ee;
+    border-radius: 5px;
+    border-style: none;
+    width: 120%;
+    height: 40px;
+    align-self: center;
+
+}
