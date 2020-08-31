@@ -4,18 +4,14 @@
     width: 60%;
     margin: auto;
 }
-.homeRow {
-    /* background-color: blueviolet; */
-}
 .homeCol {
-    /* min-height: 100%; */
-    background-color: #fff;
+    /* background-color: #fff; */
+    background-image: linear-gradient(0deg, white 80%, #e6f2ff 20% );
     border: 1px solid #d9d9d9;
     margin-bottom: 12px;
     padding: 20px;
     text-align: center;
     overflow: hidden;
-    /* background-color: aqua; */
 }
 h4 {
     font-weight: 600;
@@ -43,7 +39,7 @@ img {
     font-size: 0.9em;
     cursor: pointer;
     font-weight: 400;
-    margin-top: 30%;
+    margin-top: 20%;
 }
 .homeClose {
     border: solid #8c8c8c 1px;    
@@ -52,16 +48,28 @@ img {
     width: 25px;
     color: #fff;
     background-color: #595959;
+    opacity: 20px;
     text-align: center;
     cursor: pointer;
+    position: relative;
+    top: -16px;
+    right: -18px;
 }
-/* .email {
+.email {
+    /* truncate text starts  */
     overflow: hidden;
     text-overflow: ellipsis;
-    background-color: brown;
-} */
+    white-space: nowrap;
+    /* truncate text ends  */
+
+}
 .name {
-    
+    /* truncate text starts  */
+    text-overflow: ellipsis; 
+    white-space: nowrap;
+    overflow: hidden;
+    /* truncate text ends */
+
 }
 @media screen and (max-width: 769px) {
     img {
