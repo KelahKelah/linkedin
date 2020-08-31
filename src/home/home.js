@@ -65,7 +65,7 @@ const Home = (props) => {
                       handleClick(user.id);
                     }}
                   >
-                    View
+                    Connect
                   </button>
                 </div>
               </div>
