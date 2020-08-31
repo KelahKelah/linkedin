@@ -8,32 +8,31 @@
     width: 60%;
     margin: auto;
     display: flex;
-    justify-content: center;
-    align-self: center;
-    /* background-color: brown; */
-    /* padding: 0.8%; */
+    justify-content: center; 
+    
 }
 .brand {
     display: flex;
 }
-ul {
+.headerNav {
+    margin-bottom: 0px !important;
     display: flex;
+    align-self: center;
+  
 }
 li {
     list-style: none;
-    padding: 0.9%;
+    padding: 0.6%;
+    text-align: center;
 }
 .logo {
-    font-size: 2.8em;
-    background-color: #0073b1;
+    font-size: 4.4em;
     align-self: center;
-    /* background-color: chartreuse; */
 }
 .headerIcon {
-    font-size: 2em;
+    font-size: 1.9em;
 }
 .search {
-    /* border: black 2px solid; */
     background-color: #e1e9ee;
     border-radius: 5px;
     border-style: none;
@@ -41,4 +40,13 @@ li {
     height: 40px;
     align-self: center;
 
+}
+
+@media screen and (max-width: 769px) {
+    ul {
+        display: none;
+    }
+    .brand {
+        width: 90vw;
+    }
 }

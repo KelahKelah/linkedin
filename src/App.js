@@ -14,7 +14,7 @@ function App() {
       <BrowserRouter>
         <Switch>
           <Route exact path="/use/:id" component={SingleCardUser} />
-          <Route exact path='/'><Home /></Route>
+          <Route exact path='/' component={Home} />
           <Route exact path='/user/:id' component={UserId} />
           <Route exact path='/single' component={SingleCard} />
         </Switch>

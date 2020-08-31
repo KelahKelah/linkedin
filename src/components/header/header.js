@@ -17,7 +17,7 @@ const Header = () => {
                     <input type='search' placeholder='Search' className={styles.search} />
                 {/* </form> */}
             </div>
-            <ul>
+            <ul className={styles.headerNav}>
                 <li>
                     <div>
                         <AiFillHome className={styles.headerIcon} />
@@ -26,29 +26,39 @@ const Header = () => {
                 </li>
                 <li> 
                     <div>
-                        
+                        <AiOutlineTeam className={styles.headerIcon} />
+                        Network
                     </div>
-                    <AiOutlineTeam className={styles.headerIcon} />
-                     Network
                 </li>
                 <li>
-                    <AiTwotoneShopping className={styles.headerIcon} />
-                    Jobs
+                    <div>
+                        <AiTwotoneShopping className={styles.headerIcon} />
+                        Jobs
+                    </div>
                 </li>
                 <li>
-                    <AiFillWechat className={styles.headerIcon} />
-                    Messages</li>
-                <li>
-                    <AiOutlineBell className={styles.headerIcon} />
-                    Notifications
+                    <div>
+                        <AiFillWechat className={styles.headerIcon} />
+                        Messages
+                    </div>
                 </li>
                 <li>
-                    <AiFillWechat className={styles.headerIcon} />
-                    Me
+                    <div>
+                        <AiOutlineBell className={styles.headerIcon} />
+                        Notifications
+                    </div>
                 </li>
                 <li>
-                    <AiOutlineTable className={styles.headerIcon} />
-                    Work
+                    <div>
+                        <AiFillWechat className={styles.headerIcon} />
+                        Me     
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <AiOutlineTable className={styles.headerIcon} />
+                        Work
+                    </div>
                 </li>
 
             </ul>
