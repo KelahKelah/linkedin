@@ -19,7 +19,6 @@ const Home = (props) => {
         "app-id": `${appId}`,
       },
     }).then((res) => {
-      // console.log('The response is',res)
       if (res.status === 200) {
         setUserData(res.data.data);
         console.log("user data is", userData);
@@ -29,9 +28,7 @@ const Home = (props) => {
   }, []);
 
   const handleClick = (userId) => {
-    // setUserId(userData.id)
     props.history.push(`/user/${userId}`);
-    // console.log('UserId is ', userData.id)
   };
 
   return !loader ? (

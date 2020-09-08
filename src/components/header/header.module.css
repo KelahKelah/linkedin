@@ -2,23 +2,22 @@
     width: 100%;
     background-color: #283e4a;
     color: #fff;
-
 }
 .headerContent {
     width: 60%;
     margin: auto;
     display: flex;
-    justify-content: center; 
+    /* justify-content: center;  */
     
 }
 .brand {
     display: flex;
+    /* background-color: chartreuse; */
 }
 .headerNav {
     margin-bottom: 0px !important;
     display: flex;
     align-self: center;
-  
 }
 li {
     list-style: none;
@@ -43,10 +42,10 @@ li {
 }
 
 @media screen and (max-width: 769px) {
-    ul {
+    .headerNav {
         display: none;
     }
     .brand {
-        width: 90vw;
+        width: 100vw;
     }
 }

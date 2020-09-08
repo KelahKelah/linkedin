@@ -58,21 +58,20 @@ const SingleCard = (props) => {
     overflow: hidden;
     width: 22%;
     `
-    const Close = styled.span`
-    border: solid #8c8c8c 1px;    
+    const Close = styled.div`
     border-radius: 50%;
-    height: 35px;
-    width: 35px;
+    height: 30px;
+    width: 30px;
     color: #fff;
     background-color: #595959;
-    opacity: 20px;
     text-align: center;
     cursor: pointer;
     position: relative;
-    top: -70px;
-    right: -150px;
-    padding: 5px;
-    fontsize: 1.9em;
+    top: -40px;
+    right: -155px;
+    padding: 3px;
+    fontsize: 20px;
+    font-weight: 600;
     `
     const Photo = styled.img`
     width: 100px;
@@ -114,6 +113,7 @@ const SingleCard = (props) => {
         color: #000;
         `};
     `
+
     return !loader? <Loader /> : (
             <>
                 <Container>
@@ -133,38 +133,8 @@ const SingleCard = (props) => {
                         })}
                         
                     </BigCard>
-                    {/* <BigCard>
-                        <Card>  
-                            <Close>&times;</Close>
-                            <Photo src={Img} alt="profile-photo"></Photo>
-                            <Title>Ochoko Ebuka</Title>
-                            <Paragraph>Estate Surveyor</Paragraph>
-                            <SubParagraph><BsLink />12 mutual connection</SubParagraph>
-                            <Button>View</Button>
-                        </Card>
-                    </BigCard>
-                    <BigCard>
-                        <Card>
-                            <Close>&times;</Close>
-                            <Photo src={Img} alt="profile-photo"></Photo>
-                            <Title>Lawal Lawani I still want </Title>
-                            <Paragraph>Medical Lab</Paragraph>
-                            <SubParagraph><BsLink />12 mutual connection</SubParagraph>
-                            <Button>View</Button>
-                        </Card>
-                    </BigCard>
-                    <BigCard>
-                        <Card>                            
-                            <Close>&times;</Close>
-                            <Photo src={Img} alt="profile-photo"></Photo>
-                            <Title>Best Groove</Title>
-                            <Paragraph>Tv Presenter</Paragraph>
-                            <SubParagraph><BsLink />12 mutual connection</SubParagraph>
-                            <Button>View</Button>
-                        </Card>
-                    </BigCard> */}
+               
                 </Container>
-                {/* <Button secondary>Secondary Button</Button> */}
             </>
     )
 }
