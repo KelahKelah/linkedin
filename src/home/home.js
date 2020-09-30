@@ -48,7 +48,7 @@ const Home = (props) => {
                   >
                     &times;
                   </span>
-                  <img src={user.picture} alt="" />
+                  <img src={user.picture} alt="" className={styles.pic} />
                   <h4
                     className={styles.name}  alt={`${user.firstName} ${user.lastName}`}
                   >{`${user.firstName} ${user.lastName}`}</h4>
