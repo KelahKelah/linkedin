@@ -6,10 +6,13 @@ import {BrowserRouter, Switch, Route} from 'react-router-dom';
 import SingleCard from './components/singleCard/singleCard';
 import SingleCardUser from './components/singleCardUser/singleCardUser';
 import Header from './components/header/header';
+// import Navigation from './components/navigation/navigation';
+import Footer from './components/footer/footer';
 
 function App() {
   return (
     <div>
+      {/* <Navigation /> */}
       <Header />
       <BrowserRouter>
         <Switch>
@@ -19,6 +22,7 @@ function App() {
           <Route exact path='/single' component={SingleCard} />
         </Switch>
       </BrowserRouter>
+      <Footer />
     </div>
   );
 }
